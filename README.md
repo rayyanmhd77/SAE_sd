@@ -2,13 +2,14 @@
 python -m venv .venv
 
 ## 2. Activer l'environnement virtuel 
-.venv\Scripts\activate 
 
 - sur Windows
 
-.venv\bin\activate
+.venv\Scripts\activate 
 
 - sur Linux
+
+.venv\bin\activate
 
 ## 3. Installer les dépendances depuis requirements.txt
 pip install -r requirements-dev.txt 
